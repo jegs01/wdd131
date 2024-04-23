@@ -1,7 +1,7 @@
 /* Body styles */
 body {
     display: grid;
-    grid-template-rows: auto auto 1fr auto; /* Header, Main, Footer */
+    grid-template-rows: auto auto 1fr auto; /* Header, Nav, Main, Footer */
     min-height: 150vh;
 }
 
