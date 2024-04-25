@@ -12,19 +12,12 @@
 h1 {
     padding: 10px;
     text-align: center;
+    color: #F4A460;
 }
 
 .header {
     background-color: #333;
     color: #fff;
-}
-
-.header-highlight {
-    color: #F4A460;
-}
-
-.name-highlight {
-    color: cadetblue;
 }
 
 /* Navigation styles */
