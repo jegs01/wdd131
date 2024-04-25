@@ -129,3 +129,105 @@ h3 {
 #lastModified {
     color: cadetblue;
 }
+
+/* Media query for mobile view */
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+/* Body styles */
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
+    min-height: 150vh;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header styles */
+h1 {
+    padding: 10px;
+    text-align: center;
+    color: #F4A460;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Navigation styles */
+nav ul {
+    background-color: #F4A460;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+/* Main content and sidebar styles */
+.main {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for mobile */
+    padding: 20px; 
+}
+
+.card {
+    background-color: cadetblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.aside-content {
+    background-color: #F4A460;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image1,
+.image2 {
+    max-width: 80%; 
+    height: auto;
+    border-radius: 10px;
+    padding: 10px; 
+    margin: 0 auto;
+    display: block;
+    position: static; 
+}
+
+h3 {
+    text-align: center;
+}
+
+.about-me,
+.about-nigeria {
+    margin: 0; 
+    padding: 10px;
+}
+
+.flag-description {
+    font-size: 12px; 
+    color: black; 
+    text-align: justify;
+    padding-bottom: 380px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.year-highlight {
+    color: #F4A460;
+}
+
+#lastModified {
+    color: cadetblue;
+}
+}
