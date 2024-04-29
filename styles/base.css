@@ -17,7 +17,6 @@ h1 {
 
 .header {
     background-color: #333;
-    color: #fff;
 }
 
 /* Navigation styles */
@@ -66,6 +65,22 @@ nav ul li a:hover {
     border-top-right-radius: 10px;
 }
 
+.aside-link {
+    list-style-type: none;
+    padding: 0;
+}
+.aside-link li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.aside-link li a {
+    text-decoration: none;
+    color: black;
+}
+.aside-link li a:hover {
+    text-decoration: underline;
+}
+
 .image1 {
     position: absolute;
     top: 60px;
@@ -98,7 +113,7 @@ h3 {
 
 .about-nigeria {
     float: right;
-    margin-left: 100px;
+    margin-left: 150px;
     padding: 8px;
 }
 
@@ -127,7 +142,7 @@ h3 {
 }
 
 #lastModified {
-    color: cadetblue;
+    color: #F4A460;
 }
 
 /* Media query for mobile view */
@@ -155,7 +170,6 @@ h1 {
 
 .header {
     background-color: #333;
-    color: #fff;
 }
 
 /* Navigation styles */
@@ -185,6 +199,22 @@ nav ul {
     padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.aside-link {
+    list-style-type: none;
+    padding: 0;
+}
+.aside-link li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.aside-link li a {
+    text-decoration: none;
+    color: black;
+}
+.aside-link li a:hover {
+    text-decoration: underline;
 }
 
 .image1,
@@ -228,6 +258,6 @@ h3 {
 }
 
 #lastModified {
-    color: cadetblue;
+    color: #F4A460;
 }
 }
