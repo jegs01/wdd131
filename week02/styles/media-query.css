@@ -12,8 +12,9 @@ header, main, footer {
     background-color: #e0e8f0;
 }
 
-main {
+.grid {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr;
     gap: 1rem;
 }
