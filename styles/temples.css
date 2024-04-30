@@ -1,0 +1,120 @@
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
+    min-height: 150vh;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+	text-align: left;
+	font-family: times, serif;
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 1.2rem;
+	color: navy;
+	margin: 1rem;
+    text-align: center;
+}
+
+nav {
+	margin: 1rem auto;
+}
+
+.temple-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto; 
+}
+
+
+.footer {
+    background-color: cadetblue;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.year-highlight {
+    color: #fff;
+}
+
+#lastModified {
+    color: #fff;
+}
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+    color: #fff;
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: cadetblue;
+	color: #fff;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+    text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+.open a {
+    display: block;
+}
+
+
+h1 {
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+        
+@media screen and (max-width: 768px) {
+    .temple-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .temple-gallery {
+        grid-template-columns: 1fr;
+    }
+}
