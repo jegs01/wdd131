@@ -1,6 +1,3 @@
-const hamButton = document.getElementById('menu'); // Select the menu button
-const navigation = document.querySelector('.navigation'); // Select the navigation container
-
 document.addEventListener('DOMContentLoaded', function() {
     // Set footer copyright year
     document.getElementById('copyright-year').textContent = new Date().getFullYear();
@@ -9,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('last-modified').textContent = document.lastModified;
 
     // Add event listener to the menu button
+    const hamButton = document.getElementById('menu'); // Select the menu button
+    const navigation = document.querySelector('.navigation'); // Select the navigation container
     hamButton.addEventListener('click', function() {
         hamButton.classList.toggle('open');
         navigation.classList.toggle('open');
