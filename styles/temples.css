@@ -15,7 +15,7 @@ h1 {
 
 h2 {
 	font-size: 1.2rem;
-	color: navy;
+	color: #333;
 	margin: 1rem;
     text-align: center;
 }
@@ -41,7 +41,7 @@ figure img {
 
 
 .footer {
-    background-color: cadetblue;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 20px;
@@ -79,7 +79,7 @@ figure img {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-	background-color: cadetblue;
+	background-color: #333;
 	color: #fff;
 }
 
