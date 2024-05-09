@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Page</title>
+    <meta name="description" content="Nigeria - Kolawole Jegede.">
+    <meta name="author" content="Kolawole Jegede">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    <main>
+        <div class="hero-container"></div>
+            <picture>
+                <source srcset="images/hero_one.webp" media="(max-width: 500px)">
+                <source srcset="images/hero.webp" media="(max-width: 1000px)">
+                <img src="images/hero.webp" alt="Hero Image">
+            </picture>
+            <div class="text top-left">
+                <div class="box">
+                    <h2>Data</h2>
+                    <p><strong>Area:</strong> 923,768 sq km</p>
+                    <p><strong>Population:</strong> 206,000,000</p>
+                    <p><strong>Capital:</strong> Abuja</p>
+                    <p><strong>Languages:</strong> English, Yoruba</p>
+                    <p><strong>Currency:</strong> NGN</p>
+                    <p><strong>Zone:</strong> WAT UTC+1</p>
+                    <p><strong>Calling Code:</strong> +234</p>
+                    <p><strong>Internet TLD:</strong> .ng</p>
+                </div>
+            </div>
+            <div class="text lower-right">
+                <div class="box-two">
+                    <div class="weather-img">
+                        <h2>Weather</h2>
+                        <img src="images/weather.webp" alt="Weather Image">
+                    </div>
+                    <p><strong>Temperature:</strong> 37.6 &deg;C</p>
+                    <p><strong>Conditions:</strong> Sunny</p>
+                    <p><strong>Wind:</strong> 11 km/h</p>
+                    <p id="windChillFactor"><strong>Wind Chill:</strong> </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="year-highlight">&copy; <span id="copyright-year"></span> | Kolawole Jegede | Nigeria</div>
+        <div>Last modified: <span id="last-modified"></span></div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

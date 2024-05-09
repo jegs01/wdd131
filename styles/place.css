@@ -1,0 +1,111 @@
+ /* Body Styling */
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
+  min-height: 100vh;
+  font-family: "PT Serif", serif;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  padding: 10px;
+  background-color:  #FFDAB9;
+  color: #000080;
+}
+/* Main Content Styling */
+picture img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-container {
+  position: absolute;
+}
+
+.text {
+  position: absolute;
+  color: #000080; /* Set text color */
+}
+
+.top-left {
+  top: 135px; /* Adjust distance from the top */
+  left: 20px; /* Adjust distance from the left */
+  padding-left: 10px;
+}
+
+.lower-right {
+  bottom: 5px;
+  right: 17px; /* Adjust distance from the right */
+  padding-right: 20px;
+}
+
+.box {
+  width: 160px; /* Adjust the width of the box */
+  height: 220px; /* Adjust the height of the box */
+  border: 2px solid #FFDAB9;
+  font-size: 50%; /* Reduce font size by 50% */
+  background-color: #f0f0f0;
+}
+
+.box h2 {
+  font-size: 16px; /* Adjust the font size for the heading */
+  background-color: #FFDAB9;
+  padding: 5px;
+}
+
+.box p {
+  font-size: 12px; /* Adjust the font size for paragraphs */
+  margin: 5px 0; /* Adjust the margin to reduce spacing between paragraphs */
+  text-align: center;
+}
+
+.box-two {
+  width: 130px; /* Adjust the width of the box */
+  height: 150px; /* Adjust the height of the box */
+  border: 2px solid #FFDAB9;
+  font-size: 50%; /* Reduce font size by 50% */
+  background-color: #f0f0f0;
+  position: relative;
+  top: 100px;
+}
+
+.box-two h2 {
+  font-size: 16px; /* Adjust the font size for the heading */
+}
+
+.box-two p {
+  font-size: 12px; /* Adjust the font size for paragraphs */
+  margin: 5px 0; /* Adjust the margin to reduce spacing between paragraphs */
+  text-align: center;
+}
+
+.box-two img {
+  width: 30%;
+  height: auto;
+}
+
+.weather-img {
+  background-color: #FFDAB9;
+  display: inline-flex;
+  gap: 13px;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color:  #FFDAB9;
+  color: #000080;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+}
+
+@media (max-width: 480px) {
+  /* Adjustments for mobile screens */
+}
