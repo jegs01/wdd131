@@ -10,13 +10,14 @@ body {
 header {
   text-align: center;
   padding: 10px;
-  background-color:  #FFDAB9;
-  color: #000080;
+  background-color:  #013220;
+  color: white;
 }
 /* Main Content Styling */
 picture img {
   max-width: 100%;
   height: auto;
+  padding-top: 10px;
 }
 
 .hero-container {
@@ -25,87 +26,94 @@ picture img {
 
 .text {
   position: absolute;
-  color: #000080; /* Set text color */
+  color: #013220; 
 }
 
 .top-left {
-  top: 135px; /* Adjust distance from the top */
-  left: 20px; /* Adjust distance from the left */
+  top: 135px; 
+  left: 20px;
   padding-left: 10px;
 }
 
 .lower-right {
   bottom: 5px;
-  right: 17px; /* Adjust distance from the right */
+  right: 17px; 
   padding-right: 20px;
 }
 
 .box {
-  width: 160px; /* Adjust the width of the box */
-  height: 220px; /* Adjust the height of the box */
-  border: 2px solid #FFDAB9;
-  font-size: 50%; /* Reduce font size by 50% */
+  width: 160px; 
+  height: 220px; 
+  border: 2px solid #013220;
+  font-size: 50%; 
   background-color: #f0f0f0;
 }
 
 .box h2 {
-  font-size: 16px; /* Adjust the font size for the heading */
-  background-color: #FFDAB9;
+  font-size: 16px; 
+  background-color: #013220;
   padding: 5px;
+  color: white;
 }
 
 .box p {
-  font-size: 12px; /* Adjust the font size for paragraphs */
-  margin: 5px 0; /* Adjust the margin to reduce spacing between paragraphs */
+  font-size: 12px; 
+  margin: 5px 0; 
   text-align: center;
 }
 
 .box-two {
-  width: 130px; /* Adjust the width of the box */
-  height: 150px; /* Adjust the height of the box */
-  border: 2px solid #FFDAB9;
-  font-size: 50%; /* Reduce font size by 50% */
+  width: 130px; 
+  height: 150px; 
+  border: 2px solid #013220;
+  font-size: 50%; 
   background-color: #f0f0f0;
   position: relative;
   top: 100px;
 }
 
 .box-two h2 {
-  font-size: 16px; /* Adjust the font size for the heading */
+  font-size: 16px; 
+  padding-bottom: 10px;
+  color: white;
 }
 
 .box-two p {
-  font-size: 12px; /* Adjust the font size for paragraphs */
-  margin: 5px 0; /* Adjust the margin to reduce spacing between paragraphs */
+  font-size: 12px; 
+  margin: 5px 0; 
   text-align: center;
 }
 
-.box-two img {
-  width: 30%;
-  height: auto;
+
+.weather-img h2::after {
+  content: "";
+  display: inline-flex;
+  width: 50px; 
+  height: 30px; 
+  background-image: url('https://jegs01.github.io/wdd131/images/weather.webp');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  margin-left: 15px;
+  top: 10px;
+  position: relative;
 }
 
-.weather-img {
-  background-color: #FFDAB9;
-  display: inline-flex;
-  gap: 13px;
-  padding-left: 5px;
-  margin-top: 10px;
+@media (min-width: 480px) {
+  .weather-image2 {
+    display: none;
+  }
+
+  .weather-img {
+    background-color: #013220;
+    padding-left: 5px;
+    margin-top: 10px;
+  }
 }
 
 /* Footer Styling */
 footer {
   text-align: center;
   padding: 20px;
-  background-color:  #FFDAB9;
-  color: #000080;
-}
-
-/* Media Queries for Responsive Design */
-@media (max-width: 768px) {
-  /* Adjustments for smaller screens */
-}
-
-@media (max-width: 480px) {
-  /* Adjustments for mobile screens */
+  background-color: #013220;
+  color: white;
 }

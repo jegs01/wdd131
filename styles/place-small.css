@@ -1,0 +1,138 @@
+@media (max-width: 768px) {
+    .hero-container {
+        position: absolute;
+    }
+    
+    .text {
+        position: absolute;
+        color: #013220; 
+    }
+    
+    .top-left {
+        top: 135px; 
+        left: 10px; 
+    }
+    
+    .lower-right {
+        bottom: 5px;
+        right: 3px; 
+        padding-right: 15px;
+    }
+    
+    .box {
+        width: 130px; 
+        height: 240px; 
+        border: 2px solid #013220;
+        font-size: 25%; 
+        background-color: #f0f0f0;
+    }
+    
+    .box h2 {
+        font-size: 12px; 
+        background-color: #013220;
+        padding: 5px;
+    }
+    
+    .box p {
+        font-size: 12px; 
+        margin: 5px 0; 
+        text-align: center;
+    }
+    
+    .box-two {
+        width: 120px; 
+        height: auto; 
+        border: 2px solid #013220;
+        font-size: 25%; 
+        background-color: #f0f0f0;
+        position: relative;
+        top: 0px;
+        margin-bottom: 40px;
+    }
+    
+    .box-two h2 {
+        font-size: 12px; 
+    }
+    
+    .box-two p {
+        margin: 5px 0; 
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .hero-container {
+        position: relative; 
+    }
+    
+    .text {
+        position: relative; 
+        color: #013220; 
+    }
+    
+    .top-left {
+        top: 0; 
+        left: 0; 
+    }
+    
+    .box {
+        width: 100%; 
+        max-width: 300px; 
+        font-size: 16px; 
+        background-color: white;
+        padding: 5px; 
+        box-sizing: border-box; 
+        border: 0 solid white;
+    }
+    
+    .box h2 {
+        font-size: 18px; 
+        margin-top: 0; 
+        text-align: center;
+        background-color: white;
+        color: #013220;
+    }
+    
+    .box p {
+        margin: 5px 0; 
+        text-align: center;
+    }
+    
+    .box-two {
+        width: 100%; 
+        max-width: 300px; 
+        border: 0 solid white;
+        font-size: 16px; 
+        background-color: white;
+        box-sizing: border-box; 
+        padding-top: 20px;
+    }
+    
+    .box-two h2 {
+        font-size: 18px; 
+        margin-top: 0; 
+        text-align: center;
+        background-color: white;
+        color: #013220;
+    }
+    
+    .box-two p {
+        margin: 5px 0; 
+        text-align: center;
+    }
+
+    
+    .weather-img h2::after {
+        display: none;
+        height: 0;
+    }
+
+    .weather-image2 {
+        width: 30px; 
+        height: auto; 
+        display: block;
+        background-color: white;
+        margin: 0 auto; 
+    }
+}
