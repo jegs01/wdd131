@@ -5,7 +5,7 @@
     
     .text {
         position: absolute;
-        color: #013220; 
+        color: var(--text-color); 
     }
     
     .top-left {
@@ -29,7 +29,7 @@
     
     .box h2 {
         font-size: 12px; 
-        background-color: #013220;
+        background-color: var(--main-color);
         padding: 5px;
     }
     
@@ -68,7 +68,7 @@
     
     .text {
         position: relative; 
-        color: #013220; 
+        color: var(--text-color); 
     }
     
     .top-left {
@@ -91,7 +91,7 @@
         margin-top: 0; 
         text-align: center;
         background-color: white;
-        color: #013220;
+        color: var(--text-color);
     }
     
     .box p {
@@ -114,7 +114,7 @@
         margin-top: 0; 
         text-align: center;
         background-color: white;
-        color: #013220;
+        color: var(--text-color);
     }
     
     .box-two p {
