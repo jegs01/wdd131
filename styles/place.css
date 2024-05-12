@@ -26,7 +26,7 @@ picture img {
 }
 
 .hero-container {
-  position: absolute;
+  position: relative;
 }
 
 .text {
@@ -35,15 +35,15 @@ picture img {
 }
 
 .top-left {
-  top: 135px;
+  top: 50px;
   left: 20px;
   padding-left: 10px;
 }
 
 .lower-right {
-  bottom: 5px;
-  right: 17px;
-  padding-right: 20px;
+  bottom: 25px;
+  right: 3px;
+  padding-right: 10px;
 }
 
 .box {
@@ -73,8 +73,6 @@ picture img {
   border: 2px solid var(--main-color); 
   font-size: 50%;
   background-color: #f0f0f0;
-  position: relative;
-  top: 100px;
 }
 
 .box-two h2 {

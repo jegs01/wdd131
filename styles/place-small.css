@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     .hero-container {
-        position: absolute;
+        position: relative;
     }
     
     .text {
@@ -9,19 +9,20 @@
     }
     
     .top-left {
-        top: 135px; 
-        left: 10px; 
-    }
-    
+        top: 10px;
+        left: 5px;
+        padding-left: 3px;
+      }
+      
     .lower-right {
-        bottom: 5px;
-        right: 3px; 
-        padding-right: 15px;
+        bottom: 25px;
+        right: 3px;
+        padding-right: 10px;
     }
-    
+
     .box {
         width: 130px; 
-        height: 240px; 
+        height: auto; 
         border: 2px solid #013220;
         font-size: 25%; 
         background-color: #f0f0f0;
@@ -45,9 +46,6 @@
         border: 2px solid #013220;
         font-size: 25%; 
         background-color: #f0f0f0;
-        position: relative;
-        top: 0px;
-        margin-bottom: 40px;
     }
     
     .box-two h2 {
@@ -58,7 +56,6 @@
         margin: 5px 0; 
         text-align: center;
     }
-
 }
 
 @media (max-width: 480px) {
@@ -121,7 +118,6 @@
         margin: 5px 0; 
         text-align: center;
     }
-
     
     .weather-img h2::after {
         display: none;
