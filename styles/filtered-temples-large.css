@@ -13,7 +13,7 @@
 		flex-direction: row;
 	}
 
-	.navigation li {
+	.navigation a {
 		display: inline-flex;
         align-items: end;
 		
