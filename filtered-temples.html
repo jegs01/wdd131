@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="Temple Album - Kolawole Jegede.">
+    <meta name="author" content="Kolawole Jegede">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <h1>Temple Album</h1>
+            <button id="menu" aria-label="Menu"></button>
+            <nav>
+                <ul>
+                    <li class="nav-item" data-criteria="Home">Home</li>
+                    <li class="nav-item" data-criteria="Old">Old</li>
+                    <li class="nav-item" data-criteria="New">New</li>
+                    <li class="nav-item" data-criteria="Large">Large</li>
+                    <li class="nav-item" data-criteria="Small">Small</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="templeContainer"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="year-highlight">&copy; <span id="copyright-year"></span> | Kolawole Jegede | Nigeria</div>
+        <div>Last modified: <span id="last-modified"></span></div>
+    </footer>
+</body>
+</html>
