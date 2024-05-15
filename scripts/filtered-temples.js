@@ -83,36 +83,41 @@ const temples = [
 
 const templeContainer = document.getElementById('templeContainer');
 templeContainer.classList.add('temple-container');
+
 const navItems = document.querySelectorAll('.nav-item');
 
 function createTempleCard(temple) {
-    const card = document.createElement('div');
-    card.className = 'temple-card';
+    const figure = document.createElement('figure');
+    figure.className = 'temple-card';
     
     const img = document.createElement('img');
     img.src = temple.imageUrl;
     img.alt = temple.templeName;
     img.loading = 'lazy';
-    card.appendChild(img);
+    figure.appendChild(img);
+    
+    const figcaption = document.createElement('figcaption');
     
     const name = document.createElement('h2');
     name.textContent = temple.templeName;
-    card.appendChild(name);
+    figcaption.appendChild(name);
     
     const location = document.createElement('p');
     location.textContent = `Location: ${temple.location}`;
-    card.appendChild(location);
+    figcaption.appendChild(location);
     
     const dedicated = document.createElement('p');
     dedicated.textContent = `Dedicated: ${temple.dedicated}`;
-    card.appendChild(dedicated);
+    figcaption.appendChild(dedicated);
     
     const area = document.createElement('p');
     area.textContent = `Area: ${temple.area} square feet`;
-    card.appendChild(area);
+    figcaption.appendChild(area);
     
-    templeContainer.appendChild(card);
+    figure.appendChild(figcaption);
+    templeContainer.appendChild(figure);
 }
+  
 
 function displayTemples(filteredTemples) {
     templeContainer.innerHTML = '';
